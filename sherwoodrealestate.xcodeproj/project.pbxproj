@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		78103E9520E1EAB6006F6457 /* AboutSherwoodDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78103E9420E1EAB6006F6457 /* AboutSherwoodDetailVC.swift */; };
+		78103E9720E2E3A8006F6457 /* Sherwood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78103E9620E2E3A8006F6457 /* Sherwood.swift */; };
+		78103E9920E2E8C0006F6457 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78103E9820E2E8C0006F6457 /* ImageCell.swift */; };
+		78103E9B20E2E952006F6457 /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78103E9A20E2E952006F6457 /* NameCell.swift */; };
+		78103E9D20E2F815006F6457 /* SherwoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78103E9C20E2F815006F6457 /* SherwoodController.swift */; };
 		781FAB2C20B36DAF00E13855 /* ListingDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FAB2B20B36DAF00E13855 /* ListingDetailController.swift */; };
 		781FAB2E20B36E8700E13855 /* ListingSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FAB2D20B36E8700E13855 /* ListingSlides.swift */; };
 		781FAB3020B3702300E13855 /* AllListingsMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FAB2F20B3702300E13855 /* AllListingsMapVC.swift */; };
@@ -19,7 +23,7 @@
 		7832981720D9760B00A81034 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7832981620D9760B00A81034 /* CustomTabBarController.swift */; };
 		7832981920DC3F3C00A81034 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7832981820DC3F3C00A81034 /* MainTabBarController.swift */; };
 		7833B40020E083F000E7D94D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7833B3FF20E083F000E7D94D /* GoogleService-Info.plist */; };
-		7833B40220E088DD00E7D94D /* SoldListingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7833B40120E088DD00E7D94D /* SoldListingsVC.swift */; };
+		7833B40220E088DD00E7D94D /* SherwoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7833B40120E088DD00E7D94D /* SherwoodVC.swift */; };
 		7833B40420E08B6D00E7D94D /* SoldListingsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7833B40320E08B6D00E7D94D /* SoldListingsHeader.swift */; };
 		785DE0C020D5E17200BFB8DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DE0BF20D5E17200BFB8DB /* Extensions.swift */; };
 		785DE0C220D5EA9400BFB8DB /* SettingsLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DE0C120D5EA9400BFB8DB /* SettingsLauncher.swift */; };
@@ -36,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		78103E9420E1EAB6006F6457 /* AboutSherwoodDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSherwoodDetailVC.swift; sourceTree = "<group>"; };
+		78103E9620E2E3A8006F6457 /* Sherwood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sherwood.swift; sourceTree = "<group>"; };
+		78103E9820E2E8C0006F6457 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		78103E9A20E2E952006F6457 /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+		78103E9C20E2F815006F6457 /* SherwoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherwoodController.swift; sourceTree = "<group>"; };
 		781FAB2B20B36DAF00E13855 /* ListingDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailController.swift; sourceTree = "<group>"; };
 		781FAB2D20B36E8700E13855 /* ListingSlides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingSlides.swift; sourceTree = "<group>"; };
 		781FAB2F20B3702300E13855 /* AllListingsMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListingsMapVC.swift; sourceTree = "<group>"; };
@@ -47,7 +55,7 @@
 		7832981620D9760B00A81034 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		7832981820DC3F3C00A81034 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		7833B3FF20E083F000E7D94D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7833B40120E088DD00E7D94D /* SoldListingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldListingsVC.swift; sourceTree = "<group>"; };
+		7833B40120E088DD00E7D94D /* SherwoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherwoodVC.swift; sourceTree = "<group>"; };
 		7833B40320E08B6D00E7D94D /* SoldListingsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldListingsHeader.swift; sourceTree = "<group>"; };
 		785DE0BF20D5E17200BFB8DB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		785DE0C120D5EA9400BFB8DB /* SettingsLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLauncher.swift; sourceTree = "<group>"; };
@@ -111,7 +119,10 @@
 			children = (
 				7832981420D8330600A81034 /* AboutSherwoodVC.swift */,
 				78103E9420E1EAB6006F6457 /* AboutSherwoodDetailVC.swift */,
-				7833B40120E088DD00E7D94D /* SoldListingsVC.swift */,
+				7833B40120E088DD00E7D94D /* SherwoodVC.swift */,
+				78103E9620E2E3A8006F6457 /* Sherwood.swift */,
+				78103E9820E2E8C0006F6457 /* ImageCell.swift */,
+				78103E9A20E2E952006F6457 /* NameCell.swift */,
 				7833B40320E08B6D00E7D94D /* SoldListingsHeader.swift */,
 			);
 			path = SoldListings;
@@ -140,6 +151,7 @@
 			children = (
 				7890A63420B353C20090E0A2 /* AppDelegate.swift */,
 				7890A63620B353C20090E0A2 /* HomeViewController.swift */,
+				78103E9C20E2F815006F6457 /* SherwoodController.swift */,
 				7833B40520E08B7800E7D94D /* SoldListings */,
 				7832981220D7114400A81034 /* WebViewController.swift */,
 				7832981820DC3F3C00A81034 /* MainTabBarController.swift */,
@@ -288,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78103E9720E2E3A8006F6457 /* Sherwood.swift in Sources */,
 				7890A63720B353C20090E0A2 /* HomeViewController.swift in Sources */,
 				781FAB2C20B36DAF00E13855 /* ListingDetailController.swift in Sources */,
 				7832981720D9760B00A81034 /* CustomTabBarController.swift in Sources */,
@@ -297,13 +310,16 @@
 				781FAB3020B3702300E13855 /* AllListingsMapVC.swift in Sources */,
 				7890A64A20B354230090E0A2 /* Listing.swift in Sources */,
 				781FAB3520B3725B00E13855 /* CustomTabBar.swift in Sources */,
+				78103E9D20E2F815006F6457 /* SherwoodController.swift in Sources */,
 				785DE0C620D5F0AC00BFB8DB /* SettingCell.swift in Sources */,
-				7833B40220E088DD00E7D94D /* SoldListingsVC.swift in Sources */,
+				7833B40220E088DD00E7D94D /* SherwoodVC.swift in Sources */,
 				785DE0C020D5E17200BFB8DB /* Extensions.swift in Sources */,
+				78103E9920E2E8C0006F6457 /* ImageCell.swift in Sources */,
 				781FAB2E20B36E8700E13855 /* ListingSlides.swift in Sources */,
 				781FAB3220B3706100E13855 /* Annotation.swift in Sources */,
 				7890A63520B353C20090E0A2 /* AppDelegate.swift in Sources */,
 				7832981520D8330600A81034 /* AboutSherwoodVC.swift in Sources */,
+				78103E9B20E2E952006F6457 /* NameCell.swift in Sources */,
 				7833B40420E08B6D00E7D94D /* SoldListingsHeader.swift in Sources */,
 				781FAB3720B5F37E00E13855 /* Constants.swift in Sources */,
 				7832981320D7114400A81034 /* WebViewController.swift in Sources */,

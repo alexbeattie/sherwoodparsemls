@@ -63,7 +63,7 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate, SFSa
 
         let plusNavController = templateNavController(unselectedImage: #imageLiteral(resourceName: "plus_unselected"), selectedImage: #imageLiteral(resourceName: "plus_unselected"), rootViewController: AboutSherwoodVC(collectionViewLayout: UICollectionViewFlowLayout()))
         
-        let likeNavController = templateNavController(unselectedImage: #imageLiteral(resourceName: "like_unselected"), selectedImage: #imageLiteral(resourceName: "like_selected"), rootViewController: AboutSherwoodVC(collectionViewLayout: UICollectionViewFlowLayout()))
+        let likeNavController = templateNavController(unselectedImage: #imageLiteral(resourceName: "like_unselected"), selectedImage: #imageLiteral(resourceName: "like_selected"), rootViewController: SherwoodController(collectionViewLayout: UICollectionViewFlowLayout()))
         
         //user profile
 //        let layout = UICollectionViewFlowLayout()

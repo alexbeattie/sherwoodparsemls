@@ -25,9 +25,7 @@ class AboutSherwoodVC: UICollectionViewController, UICollectionViewDelegateFlowL
 
     }
 
-    func showAboutSherwoodDetailVC(_ listing: PFObject) {
-    }
-//
+
     var cellSelected : Int = 0
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         cellSelected = indexPath.item
@@ -40,11 +38,9 @@ class AboutSherwoodVC: UICollectionViewController, UICollectionViewDelegateFlowL
 
         navigationController?.pushViewController(newDetailViewController, animated: true)
 
-//        if let listing = recentListings[indexPath.item] {
 
-//            NewDetailViewController(listing)
+
             print("tapped")
-//        }
 
     }
 
